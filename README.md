@@ -25,6 +25,7 @@ Install dependencies in your virtual environment:
 ```sh
 uv venv
 uv sync
+pre-commit install
 ```
 
 #### Common Makefile Commands
@@ -33,5 +34,5 @@ uv sync
 - `make lint` — Lint code with Flake8
 - `make test` — Run tests with pytest
 - `make coverage` — Run tests with coverage reporting
-- `make pre-commit` — Run all pre-commit hooks
+- `make pre-commit` — Run all pre-commit hooks manually
 - `make clean` — Remove caches and build artifacts
