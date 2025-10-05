@@ -1,0 +1,38 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# pytest
+.pytest_cache/
+
+# coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# pre-commit
+.pre-commit-cache/
+.pre-commit/
+
+# env files
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# mypy
+.mypy_cache/
+dmypy.json
+dmypy.log
+
+# general
+*.log
+*.tmp
+
+# Virtual environments
+.venv
